@@ -1,132 +1,69 @@
-# 🐧 Penguin Paradise
+# Welcome to your Lovable project
 
-A charming interactive web application featuring adorable penguins in a winter wonderland! Meet different penguins with unique accessories, props, and fun phrases while enjoying a snowy atmosphere with background music.
+## Project info
 
-## ✨ Features
+**URL**: https://lovable.dev/projects/c7bc081c-eddc-45ca-b5da-cec09ff46cce
 
-- 🎵 Background music player with play/pause controls
-- ❄️ Animated snow effect for an immersive winter experience
-- 🎩 Penguins with random accessories (scarf, hat, sunglasses, flower, bowtie, crown, earmuffs, ribbon, glasses)
-- 🎈 Various props for penguins (balloon, sign, candy, umbrella, fishing rod, snowboard, heart)
-- 💬 Cute penguin phrases and interactions
-- 🔄 "Meet More Penguins" feature to generate new penguin combinations
-- 🎵 Interactive sound effects on penguin interactions
-- 📱 Responsive design for all device sizes
+## How can I edit this code?
 
-## 🛠️ Tech Stack
+There are several ways of editing your application.
 
-- **Framework:** React 18 with TypeScript
-- **Build Tool:** Vite
-- **Styling:** TailwindCSS with animations
-- **UI Components:** Shadcn UI (based on Radix UI)
-- **Routing:** React Router DOM
-- **State Management:** React Query
-- **Form Handling:** React Hook Form with Zod validation
-- **Development Tools:**
-  - ESLint for code quality
-  - TypeScript for type safety
-  - PostCSS for CSS processing
-  - SWC for fast compilation
+**Use Lovable**
 
-## 🚀 Getting Started
+Simply visit the [Lovable Project](https://lovable.dev/projects/c7bc081c-eddc-45ca-b5da-cec09ff46cce) and start prompting.
 
-### Prerequisites
+Changes made via Lovable will be committed automatically to this repo.
 
-- Node.js (Latest LTS version recommended)
-- npm or yarn or pnpm
+**Use your preferred IDE**
 
-### Installation
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd penguin-paradise
-```
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+Follow these steps:
 
-3. Start the development server:
-```bash
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-4. Open your browser and visit `http://localhost:5173`
+**Edit a file directly in GitHub**
 
-## 🔧 Available Scripts
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run build:dev` - Build for development
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint for code quality checks
+**Use GitHub Codespaces**
 
-## 🎮 Usage
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-- Click on penguins to interact with them and hear cute sound effects
-- Use the "Meet More Penguins" button to generate new penguin combinations
-- Toggle background music using the audio player controls
-- Enjoy the falling snow animation!
+## What technologies are used for this project?
 
-## 🎨 Customization
+This project is built with .
 
-The application features several customizable elements:
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-- Penguin accessories (in `ACCESSORIES` array)
-- Penguin props (in `PROPS` array)
-- Penguin phrases (in `PHRASES` array)
-- Snow animation properties
-- Background gradient colors
-- Audio tracks and sound effects
+## How can I deploy this project?
 
-## 🌟 Features in Detail
+Simply open [Lovable](https://lovable.dev/projects/c7bc081c-eddc-45ca-b5da-cec09ff46cce) and click on Share -> Publish.
 
-### Penguin Component
-- Renders adorable penguins with customizable accessories and props
-- Supports click interactions with sound effects
-- Displays random cute phrases in speech bubbles
+## I want to use a custom domain - is that possible?
 
-### Snow Animation
-- Creates a dynamic winter atmosphere
-- Customizable snow particle properties
-- Smooth performance with React optimization
-
-### Audio System
-- Background music player with controls
-- Interactive sound effects on penguin interactions
-- Responsive audio management
-
-## 💻 Development
-
-The project uses a modern development stack with:
-
-- TypeScript for enhanced development experience
-- ESLint for code quality
-- Tailwind CSS for styling
-- Vite for fast development and building
-- React Router for navigation
-- React Query for data management
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
